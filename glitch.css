@@ -12,7 +12,7 @@
 }
 
 h1.hero {
-    letter-spacing: .2em;
+    letter-spacing: .15em;
 }
 
 .layers {
@@ -30,13 +30,13 @@ h1.hero {
 .layers::before {
   top: 10px;
   left: 15px;
-  color: #e0287d;
+  color: #42ff42;
 }
 
 .layers::after {
   top: 5px;
   left: -10px;
-  color: #1bc7fb;
+  color: #338fff;
 }
 
 .single-path {
@@ -427,7 +427,7 @@ h1.hero {
 @keyframes font {
   0% {
     font-weight: 100;
-    color: #e0287d;
+    color: #338fff;
     filter: blur(3px);
   }
 
@@ -439,7 +439,7 @@ h1.hero {
 
   50% {
     font-weight: 300;
-    color: #1bc7fb;
+    color: #42ff42;
     filter: blur(2px);
   }
 
@@ -451,7 +451,7 @@ h1.hero {
 
   90% {
     font-weight: 500;
-    color: #e0287d;
+    color: #338fff;
     filter: blur(6px);
   }
 }

@@ -29,6 +29,8 @@ header {
     }
 }
 
+/******************************************************************************/
+
 .container {
     margin-top: 88vh;
     margin-bottom: 50vh;
@@ -42,6 +44,44 @@ header {
     padding: 2em;
     max-width: 960px;
 }
+
+/******************************************************************************/
+
+.apply-container {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.glitch-button {
+    padding: 0.8em 3em;
+    border: 2px rgba(0, 0, 0, .6);
+    border-radius: 0.2em;
+    margin: 1em;
+    margin-bottom: 1.5em;
+    /* box-shadow: 0 0 0.3em rgba(0,0,0,.6); */
+    background: rgba(0,0,0,.4);
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.glitch-button:hover {
+    background: rgba(0,0,0,.2);
+    opacity: 1;
+}
+
+@media (max-width: 500px) {
+    .glitch-button {
+        width: 100%;
+        margin: 0;
+        margin-top: 2em;
+        margin-bottom: 2.5em;
+    }
+}
+
+
+/******************************************************************************/
 
 .nav-tabs {
     border-color: rgba(0, 0, 0, .3);
@@ -86,7 +126,10 @@ header {
 
 .carousel-container {
     direction: rtl;
-    text-align: left;
+}
+
+.carousel-container * {
+    direction: ltr;
 }
 
 .carousel,

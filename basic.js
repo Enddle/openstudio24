@@ -14,6 +14,13 @@ const title_techs = [
     "Data",
     "Interaction",
     "Screen",
+    "Touch Designer",
+    "Unity",
+    "Unreal Engine",
+    "Max MSP",
+    "Python",
+    "P5.JS",
+    "Processing",
 ];
 
 let tech_h1 = document.getElementById("tech-h1");
