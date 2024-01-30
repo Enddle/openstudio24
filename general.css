@@ -18,6 +18,15 @@ header {
     text-align: center;
     color: #fff;
     mix-blend-mode: difference;
+
+    overflow-x: hidden;
+}
+
+@media (max-width: 575px) {
+    header h1 {
+        /* space for second line of text */
+        min-height: 2.5em;
+    }
 }
 
 .container {
