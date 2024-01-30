@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Pratt Interactive Open Studio 2024</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="general.css">
+</head>
+<body>
+
+    <header class="no-select">
+        <h1>
+            Art +
+            <span id="tech-span">Technology</span>
+        </h1>
+        <h5>Open Studio 2024</h5>
+    </header>
+
+    <div class="container">
+
+        <div class="section intro">
+            <p>Overview introduction</p>
+        </div>
+
+        <div id="open-call" class="section">
+            <h3>Open Call</h3>
+            <p>This exhibition is open to all Pratt students to submit their artworks related to technology.</p>
+            <h5>Deadline</h5>
+            <p>Feb 21, 2024 (Wed) 11:59pm</p>
+            <h5>Artwork Installation</h5>
+            <p>Mar 18, 2024 (Mon) 9am - 6pm</p>
+        </div>
+
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="exhib-tab" data-bs-toggle="tab" data-bs-target="#exhib-tab-pane" type="button" role="tab" aria-controls="exhib-tab-pane" aria-selected="true">Exhibition</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="event-tab" data-bs-toggle="tab" data-bs-target="#event-tab-pane" type="button" role="tab" aria-controls="event-tab-pane" aria-selected="false">Open Studio</button>
+            </li>
+        </ul>
+        <div class="section tab-content">
+            <div class="tab-pane fade show active" id="exhib-tab-pane" role="tabpanel" aria-labelledby="exhib-tab" tabindex="0">
+                <p>Exhibition</p>
+                <h5>Exhibition Dates</h5>
+                <table class="">
+                    <tr>
+                        <td>Mar 19</td>
+                        <td>Tue</td>
+                        <td>12:30pm&nbsp;</td>
+                        <td> - </td>
+                        <td>6:30pm</td>
+                    </tr>
+                    <tr>
+                        <td>Mar 20&nbsp;</td>
+                        <td>Wed&emsp;</td>
+                        <td>9:00am</td>
+                        <td> - </td>
+                        <td>6:30pm</td>
+                    </tr>
+                    <tr class="bold">
+                        <td>Mar 21</td>
+                        <td>Thu</td>
+                        <td>9:00am</td>
+                        <td> - </td>
+                        <td>6:30pm</td>
+                        <td>&nbsp;(<a href="javascript:;" onclick="event_tab.show();">Open Studio</a> day)</td>
+                    </tr>
+                    <tr>
+                        <td>Mar 22</td>
+                        <td>Fri</td>
+                        <td>9:00am</td>
+                        <td> - </td>
+                        <td>6:30pm</td>
+                    </tr>
+                </table>
+                <br>
+                <h5>Reception</h5>
+                <p>The reception will be held on Mar 21, 2024 (Thu) from 12:30 - 2pm, on the same day of the Open Studio.</p>
+                <br>
+                <h5>Exhibition Location</h5>
+                <div class="carousel-container">
+                    <div id="carousel0" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel0" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel0" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel0" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/pratt-1-4c.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/pratt-1-4c.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/pratt-1-4c.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel0" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel0" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="carousel-info">
+                        <p>
+                            DDA Gallery, 4th floor <br>
+                            Myrtle Hall, 536 Myrtle Ave, Brooklyn NY 11205
+                        </p>
+                        <p>The Digital Arts Gallery, located on the fourth floor of Myrtle Hall on the Pratt Institute Brooklyn Campus, hosts solo and group exhibitions by students, faculty and artists in the field</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="event-tab-pane" role="tabpanel" aria-labelledby="event-tab" tabindex="0">
+                <p>Open Studio</p>
+                <h5>Event Date</h5>
+                <p>Mar 21, 2024 (Thu) 12:00pm - 5:00pm</p>
+                <br>
+                <h5>Event Location</h5>
+                <div class="gallery carousel-container">
+                    <div id="carousel1" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/20220823_165104-01.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/20220823_165104-01.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/20220823_165104-01.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="carousel-info">
+                        <p>
+                            DDA Interactive Studios, 5th floor <br>
+                            Myrtle Hall, 536 Myrtle Ave, Brooklyn NY 11205
+                        </p>
+                        <p>The DDA Interactive Studios are on the fifth floor of Myrtle Hall. The collective spaces for undergrads are in 5E6A - C, and the graduate individual / collective spaces are on the West side of the floor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Media</h3>
+        </div>
+
+        <div class="section">
+            <h3>Collabrations</h3>
+            <br>
+            <div class="collab-image">
+                <a href="https://www.pratt.edu/pratt-shows/pratt-shows-2024/" target="_blank">
+                    <img src="assets/2024_PrattShows2024_Green_calendar_placeholder.jpg" class="rounded float-end" alt="Pratt Shows 2024">
+                    <div class="info">
+                        <h5>Pratt Shows 2024</h5>
+                        <p>This Open Studio event will be listed on the public schedule of Upcoming and Ongoing Events on the official website of the Pratt Shows 2024.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="collab-image">
+                <img src="assets/dda_recognitions.jpg" class="rounded float-end" alt="DDA weekly newsletter">
+                <div class="info">
+                    <h5>DDA weekly newsletter</h5>
+                    <p>This Open Studio event will be announced through the DDA weekly newsletter. Selected works will have the opportunaty to be featured in the Student, Faculty & Staff recognition section of weekly newsletter.</p>
+                </div>
+            </div>
+            <div class="collab-image">
+                <a href="https://www.instagram.com/prattdigitalarts/" target="_blank">
+                    <img src="assets/prattdigitalarts.jpg" class="rounded float-end" alt="Pratt Digital Arts instagram">
+                    <div class="info">
+                        <h5>Pratt Digital Arts instagram</h5>
+                        <p>This Open Studio event will be announced through the Pratt Digital Arts instagram. Selected works will have the opportunaty to be featured on a dedicated post.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="collab-image">
+                <img src="assets/more-collab.png" class="rounded float-end" alt="Pratt Digital Arts instagram">
+                <div class="info">
+                    <h5>more chances...</h5>
+                    <p>Our team is still activly reaching out to other potiential collabrators, join our <a href="#open-call">Open Call</a> to become part of the show!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Guests</h3>
+        </div>
+
+        <div class="section">
+            <h3>Team</h3>
+        </div>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@v0.160.1/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@v0.160.1/examples/jsm/"
+            }
+        }
+    </script>
+    <script src="main.js" type="module" charset="utf-8"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="basic.js" charset="utf-8"></script>
+
+</body>
+</html>
