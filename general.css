@@ -40,6 +40,7 @@ header {
 
 .container {
     padding: 2em;
+    max-width: 960px;
 }
 
 .nav-tabs {
@@ -75,6 +76,12 @@ header {
 
 .section {
     padding: 2em;
+}
+
+@media (max-width: 500px) {
+    .section {
+        padding: 1em;
+    }
 }
 
 .carousel-container {
