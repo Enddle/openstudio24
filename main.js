@@ -60,6 +60,10 @@ animate();
 
 // resize window
 window.addEventListener('resize', function() {
+    // mobile optimization:
+    // when original height is more than new height, don't resize
+    if (height > window.innerHeight) return;
+
     width = window.innerWidth;
     height = window.innerHeight;
 
