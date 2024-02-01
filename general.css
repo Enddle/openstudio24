@@ -151,9 +151,17 @@ header {
     padding: 2em;
 }
 
+.section.intro {
+    padding-bottom: 0;
+}
+
 @media (max-width: 500px) {
     .section {
         padding: 1em;
+    }
+
+    .section.intro {
+        padding-bottom: 1em;
     }
 }
 
@@ -278,6 +286,10 @@ a { text-decoration: underline; }
 
 a:hover {
     opacity: .5;
+}
+
+p {
+    line-height: 1.8em;
 }
 
 canvas {
