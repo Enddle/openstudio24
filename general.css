@@ -257,6 +257,10 @@ footer .d1 {
   100% { opacity: 0.0; }
 }
 
+footer a {
+    text-decoration: none;
+}
+
 footer .logo {
     height: 1em;
     margin-bottom: .2em;
