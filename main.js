@@ -7,8 +7,8 @@ let width = window.innerWidth;
 let height = window.innerHeight;
 
 const scene = new THREE.Scene();
-// const camera = new THREE.PerspectiveCamera( 75, width / height, 0.1, 1000 );
-const camera = new THREE.OrthographicCamera( width / - 300, width / 300, height / 300, height / - 300, 1, 1000 );
+const co = 300;  // parameter to adjust the size of view for OrthographicCamera
+const camera = new THREE.OrthographicCamera( width / -co, width / co, height / co, height / -co, 1, 1000 );
 const renderer = new THREE.WebGLRenderer(); renderer.setSize( window.innerWidth, window.innerHeight );
 document.body.appendChild( renderer.domElement );
 
@@ -57,3 +57,15 @@ function animate() {
 }
 
 animate();
+
+// resize window
+window.addEventListener('resize', function() {
+    width = window.innerWidth;
+    height = window.innerHeight;
+
+    camera.aspect = width / height;
+    camera.left = width / -co;
+    camera.right = width / co;
+    camera.updateProjectionMatrix();
+    renderer.setSize(width, height);
+});
