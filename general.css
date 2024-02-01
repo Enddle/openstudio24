@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background: black;
+    overflow-x: hidden;
 }
 
 canvas {
@@ -201,7 +202,6 @@ footer .d1, footer .d2 {
 }
 
 footer .d1 {
-    float: left;
     position: absolute;
     opacity: 0;
     animation-delay: 1.5s;
