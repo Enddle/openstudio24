@@ -49,6 +49,8 @@ header {
     margin: auto;
     border-radius: 5em 5em 0 0;
     background-color: rgba(255, 255, 255, .75);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     text-align: center;
 }
 
@@ -115,6 +117,7 @@ header {
 
 .nav-tabs {
     border-color: rgba(0, 0, 0, .3);
+    margin: 0 -2em;
     text-align: center;
 }
 
