@@ -201,6 +201,13 @@ header {
     }
 }
 
+@media (max-width: 500px) {
+    .carousel {
+        width: 100vw;
+        margin: 1.5em -3em;
+    }
+}
+
 /******************************************************************************/
 
 .collab-image img {
@@ -242,6 +249,7 @@ header {
 
 footer {
     text-align: right;
+    color: #8b8680;
 }
 
 footer .dnd {
